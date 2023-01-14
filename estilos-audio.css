@@ -1,0 +1,55 @@
+.play {
+    background: url(img/play.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 70px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+.play:hover {
+    transform: scale(1.11);
+    filter: drop-shadow(5px 5px 6px);
+
+}
+.pause {
+    background: url(img/PeqnDDA.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 70px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+.pause:hover {
+    transform: scale(1.11);
+    filter: drop-shadow(5px 5px 6px);
+
+}
+.play-musicinde{
+    color: white;
+    float: right;
+    margin: 10px;
+}
+.play-musicinde span{
+    right: 10px;
+    position: absolute;
+}
+@media screen and (max-width: 800px) {
+    .play-musicinde{
+        display: none;
+
+    }
+    .play-musicinde span{
+        display: none;
+    }
+    
+}
